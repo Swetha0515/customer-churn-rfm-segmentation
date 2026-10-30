@@ -28,9 +28,22 @@ Outputs (in `outputs/`): `rfm_segments.csv`, `elbow_curve.png`, `segment_profile
 ## Dataset
 UCI Online Retail (transactions of a UK online retailer, 2010–2011).
 
+## Power BI Report
+Interactive dashboard ("RFM Insights") built in Power BI to visualise the RFM segments: KPI cards, segment share, monetary value by segment, recency/frequency scatter, top customers and product categories, with drill-through pages.
+
+**Overview**
+![Power BI overview](docs/powerbi_overview.png)
+
+**Drill-through: segment (Loyal)**
+![Segment drill-through](docs/powerbi_drillthrough_segment.png)
+
+**Drill-through: product category**
+![Product drill-through](docs/powerbi_drillthrough_product.png)
+
+> Note: the dashboard was built on a separate sales dataset (customer/product-category data), not on the Online Retail data used by the Python script. The `.pbix` file is not included.
+
 ## Notes
 - This is behavioural segmentation; no supervised churn label is trained.
-- The Power BI dashboard (RFM Insights) was built separately; add screenshots to `docs/`.
 
 ## Author
-<your name>
+<Swetha Dhanajayan>
